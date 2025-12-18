@@ -29,4 +29,4 @@ def compute_tfidf(documents, inverted_index):
                 tf = count / total_words
                 tfidf_vectors[doc_id][word] = tf * idf[word]
 
-    return tfidf_vectors
+    return tfidf_vectors, idf
