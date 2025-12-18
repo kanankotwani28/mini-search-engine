@@ -1,3 +1,27 @@
+# Mini Search Engine with TF-IDF Ranking
+
+## 📌 Project Overview
+
+This project implements a mini search engine from scratch using classical information retrieval techniques.  
+It indexes a collection of text documents and returns ranked search results based on query relevance.
+
+The goal of this project is to demonstrate a clear understanding of core search engine concepts rather than building a large-scale production system.
+
+---
+
+## 🏗️ Architecture
+
+Documents
+↓
+Text Preprocessing
+↓
+Inverted Index
+↓
+TF-IDF Vectorization
+↓
+Cosine Similarity
+↓
+Ranked Search Results
 
 ---
 
